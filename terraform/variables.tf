@@ -11,6 +11,7 @@ variable "subnet2_ip" {
 }
 
 variable "location" {
+  type = string
   default = ""
 }
 
